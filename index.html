@@ -1,0 +1,386 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Skarpety i getry piłkarskie z herbem klubu - GoalSox</title>
+<meta name="description" content="Skarpety i getry piłkarskie z herbem Twojego klubu. Wyślij herb, przygotujemy wizualizację. Od 20 par z rozmiaru, realizacja 14-21 dni roboczych.">
+<meta name="theme-color" content="#0E0F11">
+<link rel="icon" href="img/favicon.png" type="image/png">
+<link rel="preload" href="fonts/jost-rdzen.woff2" as="font" type="font/woff2" crossorigin>
+<style>
+@font-face{font-family:Jost;font-weight:300 700;font-display:swap;src:url(fonts/jost-rdzen.woff2) format("woff2");unicode-range:U+0020-007E,U+00A0-00FF,U+2013-2026,U+20AC}
+@font-face{font-family:Jost;font-weight:300 700;font-display:swap;src:url(fonts/jost-pl.woff2) format("woff2");unicode-range:U+0104-0107,U+0118-0119,U+0141-0144,U+015A-015B,U+0179-017C}
+:root{--ink:#0E0F11;--ink2:#1A1C20;--red:#E3262B;--red2:#C51D22;--grey:#F1F3F5;--line:#DCE0E5;--text:#16181C;--muted:#555C66;--w:1240px}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;font:400 17px/1.6 Jost,system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--text);background:#fff;overflow-x:hidden}
+img{max-width:100%;display:block}
+a{color:inherit}
+h1,h2,h3{font-weight:600;line-height:1.08;letter-spacing:-.015em;margin:0}
+h2{font-size:clamp(32px,4.4vw,54px)}
+h3{font-size:22px;line-height:1.2}
+p{margin:0}
+.wrap{width:100%;max-width:var(--w);margin:0 auto;padding:0 20px}
+section{scroll-margin-top:64px}
+.skip{position:absolute;left:-999px}
+/* przycisk z cięciem jak w logo */
+.btn{--c:var(--red);display:inline-flex;align-items:center;gap:18px;min-height:54px;padding:0 0 0 24px;font:600 17px/1 Jost,sans-serif;color:#fff;text-decoration:none;border:0;cursor:pointer;background:linear-gradient(90deg,var(--c) 0 calc(100% - 54px),transparent calc(100% - 54px) calc(100% - 49px),var(--c) calc(100% - 49px));transition:filter .2s}
+.btn::after{content:"";width:49px;height:54px;background:no-repeat center/18px url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 18 18'%3E%3Cpath d='M2 9h13M10 4l5 5-5 5' fill='none' stroke='%23fff' stroke-width='2.2'/%3E%3C/svg%3E")}
+.btn:hover{filter:brightness(1.08)}
+.btn.dark{--c:var(--ink)}
+.btn:focus-visible,.navlink:focus-visible{outline:3px solid var(--red);outline-offset:3px}
+/* nagłówek */
+.top{position:fixed;inset:0 0 auto;z-index:50;height:68px;transition:background .25s,box-shadow .25s}
+.top .wrap{height:100%;display:flex;align-items:center;justify-content:space-between;gap:24px}
+.logo{display:block;width:148px;height:auto}
+.logo img{width:148px;height:auto}
+.logo .l-b{display:none}
+.top.solid{background:#fff;box-shadow:0 1px 0 var(--line)}
+.top.solid .l-w{display:none}.top.solid .l-b{display:block}
+.nav{display:flex;align-items:center;gap:30px}
+.navlink{color:#fff;text-decoration:none;font-weight:500;font-size:16px}
+.top.solid .navlink{color:var(--text)}
+.navlink:hover{color:var(--red)!important}
+.nav .shop{font-weight:600;color:#fff;border:2px solid var(--red);padding:9px 16px}
+.top.solid .nav .shop{color:var(--red)}
+.burger{display:none;width:46px;height:46px;border:0;background:none;padding:10px;cursor:pointer}
+.burger span{display:block;height:2px;background:#fff;margin:6px 0;transition:transform .25s,opacity .2s}
+.top.solid .burger span{background:var(--ink)}
+@media(max-width:900px){
+ .burger{display:block}
+ .nav{position:fixed;inset:68px 0 auto;flex-direction:column;align-items:stretch;gap:0;background:#fff;padding:8px 20px 24px;box-shadow:0 18px 30px rgba(0,0,0,.18);transform:translateY(-12px);opacity:0;visibility:hidden;transition:.25s}
+ .nav .navlink{color:var(--text);padding:15px 0;border-bottom:1px solid var(--line);font-size:19px}
+ .nav .shop{margin-top:18px;text-align:center;color:var(--red);border-bottom:2px solid var(--red)}
+ .menu-open .nav{transform:none;opacity:1;visibility:visible}
+ .menu-open{background:#fff}
+ .menu-open .l-w{display:none}.menu-open .l-b{display:block}
+ .menu-open .burger span{background:var(--ink)}
+ .menu-open .burger span:nth-child(1){transform:translateY(8px) rotate(45deg)}
+ .menu-open .burger span:nth-child(2){opacity:0}
+ .menu-open .burger span:nth-child(3){transform:translateY(-8px) rotate(-45deg)}
+}
+/* pierwszy ekran: mur ze skarpet */
+.hero{position:relative;background:var(--ink);color:#fff;min-height:100svh;display:flex;flex-direction:column;overflow:hidden}
+.pitch{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
+.hero-in{position:relative;flex:1;display:flex;flex-direction:column;padding-top:clamp(100px,15vh,150px)}
+.hero-txt{max-width:780px}
+.hero h1{font-size:clamp(36px,4.6vw,66px);font-weight:600;letter-spacing:-.02em}
+.hero h1 em{font-style:normal;color:var(--red)}
+@media(min-width:900px){.hero h1 em{display:block}}
+.hero .lead{margin-top:20px;font-size:clamp(17px,1.5vw,20px);color:#C9CDD3;max-width:600px}
+.hero-act{margin-top:32px;display:flex;flex-wrap:wrap;align-items:center;gap:16px 28px}
+.tel{display:inline-flex;align-items:center;gap:10px;color:#fff;text-decoration:none;font-weight:600;font-size:19px}
+.tel svg{width:20px;height:20px}
+.facts{margin-top:24px;display:flex;flex-wrap:wrap;gap:8px 26px;font-size:15px;color:#9AA0A8}
+.facts b{color:#fff;font-weight:600}
+.mur{position:relative;flex:1 1 0;min-height:210px;max-height:560px;margin-top:clamp(24px,4vh,48px)}
+.mur-in{position:absolute;inset:0;display:flex;justify-content:center;align-items:flex-end}
+.mur img{height:100%;width:auto;margin:0 -1.2%;filter:drop-shadow(0 14px 18px rgba(0,0,0,.45))}
+.mur::after{content:"";position:absolute;left:-100vw;right:-100vw;bottom:0;height:2px;background:rgba(255,255,255,.55)}
+@media(max-width:1100px){.mur img:nth-child(6){display:none}}
+@media(max-width:700px){.mur img:nth-child(5){display:none}.mur img{height:auto;width:30%;max-height:100%;object-fit:contain;object-position:bottom;margin:0 -2%}}
+@media(max-width:420px){.mur img:nth-child(4){display:none}.mur img{width:38%;margin:0 -3%}}
+/* sekcje */
+.sec{padding:clamp(72px,9vw,120px) 0}
+.grey{background:var(--grey)}
+.head{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:20px 40px;margin-bottom:44px}
+.head p{max-width:520px;color:var(--muted);font-size:18px}
+/* realizacje - galeria */
+.gal-ctrl{display:flex;gap:6px}
+.arr{width:52px;height:52px;border:2px solid var(--ink);background:#fff;cursor:pointer;display:grid;place-items:center;transition:.2s}
+.arr:hover{background:var(--ink)}
+.arr:hover svg{stroke:#fff}
+.arr svg{width:20px;height:20px;fill:none;stroke:var(--ink);stroke-width:2.2}
+.track{display:grid;grid-auto-flow:column;grid-auto-columns:clamp(220px,23vw,290px);gap:18px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;padding:0 max(20px,calc((100vw - var(--w))/2 + 20px));scroll-padding:0 max(20px,calc((100vw - var(--w))/2 + 20px));cursor:grab;user-select:none}
+.track::-webkit-scrollbar{display:none}
+.track.drag{cursor:grabbing;scroll-snap-type:none}
+.card{scroll-snap-align:start;margin:0}
+.card button{display:block;width:100%;padding:0;border:0;background:var(--grey);aspect-ratio:3/4;cursor:zoom-in;position:relative}
+.card button::before{content:"";position:absolute;left:50%;top:50%;width:74%;aspect-ratio:1;transform:translate(-50%,-50%);border-radius:50%;border:2px solid #fff;-webkit-mask:linear-gradient(90deg,#000 0 47%,transparent 47% 53%,#000 53%);mask:linear-gradient(90deg,#000 0 47%,transparent 47% 53%,#000 53%)}
+.card img{position:relative;width:100%;height:100%;object-fit:contain;padding:18px;pointer-events:none;transition:transform .35s}
+.card button:hover img{transform:scale(1.04)}
+.card figcaption{margin-top:12px;font-weight:600;font-size:17px}
+.gal-note{margin-top:26px;color:var(--muted)}
+/* kroki */
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;counter-reset:k}
+.step{background:#fff;padding:30px 26px 32px;border-top:4px solid var(--ink)}
+.num{width:64px;height:64px;display:grid;place-items:center;font-size:28px;font-weight:600;position:relative;margin-bottom:22px}
+.num::before{content:"";position:absolute;inset:0;border-radius:50%;border:3px solid var(--red);-webkit-mask:linear-gradient(90deg,#000 0 44%,transparent 44% 56%,#000 56%);mask:linear-gradient(90deg,#000 0 44%,transparent 44% 56%,#000 56%)}
+.step p{margin-top:10px;color:var(--muted)}
+.min{margin-top:26px;display:flex;flex-wrap:wrap;gap:10px 30px;background:var(--ink);color:#fff;padding:22px 26px;font-size:18px}
+.min b{color:#fff}
+.min span{color:#B7BCC3}
+@media(max-width:980px){.steps{grid-template-columns:1fr 1fr}}
+@media(max-width:560px){.steps{grid-template-columns:1fr}.step{padding:24px 22px 26px;display:grid;grid-template-columns:64px 1fr;column-gap:18px}.num{margin:0;grid-row:span 2}.step p{margin-top:4px}}
+/* dwie drogi */
+.duo{display:grid;grid-template-columns:1.25fr 1fr;gap:20px}
+.box{padding:clamp(28px,4vw,48px);border:2px solid var(--ink);display:flex;flex-direction:column;gap:18px}
+.box h3{font-size:clamp(26px,2.6vw,34px)}
+.box p{color:var(--muted)}
+.box ul{list-style:none;margin:4px 0 6px;padding:0;display:grid;gap:14px}
+.box li{padding-left:30px;position:relative}
+.box li::before{content:"";position:absolute;left:0;top:.55em;width:16px;height:4px;background:linear-gradient(90deg,var(--red) 0 7px,transparent 7px 10px,var(--red) 10px)}
+.box li b{display:block;color:var(--text)}
+.box li span{color:var(--muted)}
+.box .btn{align-self:flex-start;margin-top:auto}
+.box.shop{background:var(--red);border-color:var(--red);color:#fff;position:relative;overflow:hidden}
+.box.shop>*{position:relative}
+.box.shop::before{content:"";position:absolute;right:-90px;bottom:-90px;width:300px;height:300px;border-radius:50%;border:26px solid rgba(255,255,255,.14);-webkit-mask:linear-gradient(90deg,#000 0 46%,transparent 46% 54%,#000 54%);mask:linear-gradient(90deg,#000 0 46%,transparent 46% 54%,#000 54%)}
+.box.shop p{color:#FFE3E3}
+.price{display:flex;align-items:baseline;gap:14px;border-top:2px solid rgba(255,255,255,.35);border-bottom:2px solid rgba(255,255,255,.35);padding:16px 0}
+.price b{font-size:36px;font-weight:600;white-space:nowrap}
+.price small{font-size:14px;color:#FFD2D2}
+.box.shop .btn{--c:#fff;color:var(--red)}
+.box.shop .btn::after{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 18 18'%3E%3Cpath d='M2 9h13M10 4l5 5-5 5' fill='none' stroke='%23E3262B' stroke-width='2.2'/%3E%3C/svg%3E")}
+@media(max-width:860px){.duo{grid-template-columns:1fr}}
+/* FAQ */
+.faq{max-width:900px}
+.faq details{background:#fff;margin-bottom:10px}
+.faq summary{list-style:none;cursor:pointer;padding:22px 64px 22px 24px;font-weight:600;font-size:19px;position:relative}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"";position:absolute;right:24px;top:50%;width:16px;height:16px;margin-top:-8px;background:linear-gradient(var(--red),var(--red)) center/16px 3px no-repeat,linear-gradient(var(--red),var(--red)) center/3px 16px no-repeat;transition:transform .25s}
+.faq details[open] summary::after{transform:rotate(45deg)}
+.faq details p{padding:0 24px 24px;color:var(--muted)}
+/* kontakt */
+.kontakt{display:grid;grid-template-columns:1.2fr 1fr;gap:clamp(28px,5vw,72px);align-items:start}
+form{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+label{display:grid;gap:6px;font-size:15px;font-weight:500}
+label.full{grid-column:1/-1}
+input,textarea{font:inherit;font-size:17px;padding:13px 14px;border:2px solid var(--line);background:#fff;border-radius:0;width:100%;color:var(--text)}
+input:focus,textarea:focus{outline:0;border-color:var(--ink)}
+textarea{min-height:130px;resize:vertical}
+input[type=file]{padding:11px;background:var(--grey)}
+form .btn{grid-column:1/-1;justify-self:start;margin-top:6px}
+.form-note{grid-column:1/-1;font-size:14px;color:var(--muted)}
+.dane{background:var(--grey);padding:clamp(26px,3.5vw,40px)}
+.dane h3{margin-bottom:22px}
+.dane a.big{display:block;font-size:clamp(24px,2.4vw,30px);font-weight:600;text-decoration:none;margin-bottom:6px}
+.dane a.big:hover{color:var(--red)}
+.dane .mail{font-size:clamp(18px,1.7vw,21px)}
+.dane dl{margin:26px 0 0;display:grid;grid-template-columns:auto 1fr;gap:6px 18px;border-top:2px solid var(--line);padding-top:22px}
+.dane dt{color:var(--muted)}.dane dd{margin:0;font-weight:500}
+.person{margin-top:22px;color:var(--muted)}
+@media(max-width:860px){.kontakt{grid-template-columns:1fr}}
+@media(max-width:520px){form{grid-template-columns:1fr}}
+/* stopka */
+footer{background:var(--ink);color:#AEB3BA;padding:56px 0 30px;font-size:15px}
+.f-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:30px}
+footer img{width:140px;height:auto;margin-bottom:16px}
+footer h4{color:#fff;margin:0 0 12px;font-size:16px;font-weight:600}
+footer ul{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+footer a{text-decoration:none}footer a:hover{color:#fff}
+.f-bot{margin-top:40px;padding-top:22px;border-top:1px solid #2A2D33;display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px}
+@media(max-width:760px){.f-grid{grid-template-columns:1fr 1fr}.f-grid>div:first-child{grid-column:1/-1}}
+/* lightbox */
+.lb{position:fixed;inset:0;z-index:100;background:rgba(14,15,17,.96);display:none;align-items:center;justify-content:center}
+.lb.on{display:flex}
+.lb img{max-height:86svh;max-width:88vw;width:auto;height:auto;object-fit:contain}
+.lb .cap{position:absolute;bottom:22px;left:0;right:0;text-align:center;color:#fff;font-weight:600}
+.lb button{position:absolute;background:none;border:2px solid rgba(255,255,255,.5);width:52px;height:52px;cursor:pointer;display:grid;place-items:center}
+.lb button svg{width:20px;height:20px;stroke:#fff;fill:none;stroke-width:2.2}
+.lb .x{top:16px;right:16px}.lb .p{left:16px;top:50%;margin-top:-26px}.lb .n{right:16px;top:50%;margin-top:-26px}
+@media(max-width:600px){.lb .p,.lb .n{top:auto;bottom:60px;margin:0}.lb img{max-height:72svh}}
+</style>
+<!-- znak Wylinki: oficjalny fragment -->
+<style>
+.wylinka-badge{display:inline-flex;align-items:center;gap:.4em;color:inherit;text-decoration:none;font-size:.875em;line-height:1;opacity:.85}
+.wylinka-badge:hover,.wylinka-badge:focus-visible{opacity:1}
+.wylinka-badge:focus-visible{outline:2px solid currentColor;outline-offset:3px;border-radius:2px}
+.wylinka-badge svg{width:18px;height:18px;flex:none;overflow:visible}
+.wylinka-badge b{font-weight:600}
+.wylinka-badge .wy-old{opacity:.45;transform-origin:40px 30px;transition:transform .32s cubic-bezier(.3,.7,.4,1),opacity .32s ease-out}
+.wylinka-badge .wy-pod{opacity:0;transition:opacity .2s ease-out .08s}
+.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:translate(9px,7px) rotate(9deg);opacity:0}
+.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:1}
+@media (prefers-reduced-motion:reduce){.wylinka-badge .wy-old,.wylinka-badge .wy-pod{transition:none}.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:none;opacity:.45}.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:0}}
+</style>
+</head>
+<body>
+<a class="skip" href="#realizacje">Przejdź do treści</a>
+<header class="top" id="top">
+ <div class="wrap">
+  <a class="logo" href="#" aria-label="GoalSox - strona główna"><img class="l-w" src="img/logo-biale.webp" width="484" height="88" alt="GoalSox"><img class="l-b" src="img/logo.webp" width="484" height="88" alt="GoalSox"></a>
+  <nav class="nav" id="nav" aria-label="Menu">
+   <a class="navlink" href="#realizacje">Realizacje</a>
+   <a class="navlink" href="#zamowienie">Jak zamówić</a>
+   <a class="navlink" href="#kluby">Dla klubów</a>
+   <a class="navlink" href="#faq">Pytania</a>
+   <a class="navlink" href="#kontakt">Kontakt</a>
+   <a class="navlink shop" href="https://goalsox.1ct.eu/" target="_blank" rel="noopener">Sklep</a>
+  </nav>
+  <button class="burger" id="burger" aria-label="Otwórz menu" aria-expanded="false" aria-controls="nav"><span></span><span></span><span></span></button>
+ </div>
+</header>
+
+<main>
+<section class="hero">
+ <svg class="pitch" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice" aria-hidden="true" fill="none" stroke="#fff" stroke-opacity=".09" stroke-width="2">
+  <path d="M1040 0v300h560"/><path d="M1270 0v130h330"/>
+  <path d="M1110 300a210 210 0 0 0 260 150" />
+  <circle cx="1240" cy="640" r="190" stroke-dasharray="560 37 560 37" transform="rotate(-71 1240 640)"/>
+ </svg>
+ <div class="wrap hero-in">
+  <div class="hero-txt">
+   <h1>Skarpety i getry piłkarskie <em>z herbem Twojego klubu</em></h1>
+   <p class="lead">Projektujemy je pod barwy i herb drużyny. Wyślij nam herb, a przygotujemy wizualizację skarpet albo getrów z Twoją grafiką.</p>
+   <div class="hero-act">
+    <a class="btn" href="#kontakt">Wyślij herb do wizualizacji</a>
+    <a class="tel" href="tel:+48732494192"><svg viewBox="0 0 20 20" fill="none" stroke="#E3262B" stroke-width="2"><path d="M5 2h3l1.5 4-2 1.3a10 10 0 0 0 5.2 5.2L14 10.5l4 1.5v3a2 2 0 0 1-2 2A14 14 0 0 1 3 4a2 2 0 0 1 2-2z"/></svg>732 494 192</a>
+   </div>
+   <div class="facts"><span><b>od 20 par</b> z jednego rozmiaru</span><span><b>14-21 dni roboczych</b> od zatwierdzenia projektu</span></div>
+  </div>
+  <div class="mur" aria-hidden="true"><div class="mur-in">
+   <img src="img/amator-maszewo-640.webp" srcset="img/amator-maszewo-360.webp 231w,img/amator-maszewo-640.webp 411w" sizes="(max-width:700px) 160px,290px" width="411" height="640" alt="" fetchpriority="high">
+   <img src="img/granat-640.webp" srcset="img/granat-360.webp 242w,img/granat-640.webp 430w" sizes="(max-width:700px) 160px,290px" width="430" height="640" alt="" fetchpriority="high">
+   <img src="img/gks-belsk-640.webp" srcset="img/gks-belsk-360.webp 244w,img/gks-belsk-640.webp 434w" sizes="(max-width:700px) 160px,290px" width="434" height="640" alt="" fetchpriority="high">
+   <img src="img/lechia-strawczyn-640.webp" srcset="img/lechia-strawczyn-360.webp 225w,img/lechia-strawczyn-640.webp 400w" sizes="(max-width:700px) 160px,290px" width="400" height="640" alt="">
+   <img src="img/tecza-640.webp" srcset="img/tecza-360.webp 231w,img/tecza-640.webp 411w" sizes="(max-width:700px) 160px,290px" width="411" height="640" alt="">
+   <img src="img/constract-640.webp" srcset="img/constract-360.webp 245w,img/constract-640.webp 436w" sizes="(max-width:700px) 160px,290px" width="436" height="640" alt="">
+  </div></div>
+ </div>
+</section>
+
+<section class="sec" id="realizacje">
+ <div class="wrap head">
+  <h2>Realizacje dla klubów</h2>
+  <p>Każda para powstaje pod konkretną drużynę: herb, barwy, napis. Przesuń, żeby zobaczyć więcej, i kliknij zdjęcie, żeby je powiększyć.</p>
+  <div class="gal-ctrl">
+   <button class="arr" id="gPrev" aria-label="Poprzednie"><svg viewBox="0 0 20 20"><path d="M17 10H4M9 4l-6 6 6 6"/></svg></button>
+   <button class="arr" id="gNext" aria-label="Następne"><svg viewBox="0 0 20 20"><path d="M3 10h13M11 4l6 6-6 6"/></svg></button>
+  </div>
+ </div>
+ <div class="track" id="track"></div>
+</section>
+
+<section class="sec grey" id="zamowienie">
+ <div class="wrap">
+  <div class="head"><h2>Jak zamówić</h2><p>Zaczynamy od Twojego herbu. Zanim ruszy produkcja, widzisz projekt i go zatwierdzasz.</p></div>
+  <div class="steps">
+   <div class="step"><div class="num">1</div><h3>Wyślij herb</h3><p>Przez formularz, mailem albo telefonicznie. Napisz, ile par potrzebujesz i czy to skarpety, czy getry.</p></div>
+   <div class="step"><div class="num">2</div><h3>Dostajesz wizualizację</h3><p>Przygotujemy projekt z Twoją grafiką: kolory, herb i napisy w barwach klubu.</p></div>
+   <div class="step"><div class="num">3</div><h3>Zatwierdzasz projekt</h3><p>Poprawiamy, dopóki projekt nie będzie taki, jak chcesz. Dopiero wtedy zaczynamy realizację.</p></div>
+   <div class="step"><div class="num">4</div><h3>Odbierasz zamówienie</h3><p>Standardowo 14-21 dni roboczych od zatwierdzenia projektu, a często szybciej.</p></div>
+  </div>
+  <div class="min"><span>Minimalne zamówienie:</span><b>20 par z jednego rozmiaru</b></div>
+ </div>
+</section>
+
+<section class="sec" id="kluby">
+ <div class="wrap">
+  <div class="head"><h2>Dla drużyny i dla kibica</h2><p>Współpracujemy z klubami na różnych poziomach rozgrywkowych. Gotowe skarpety z haftem kupisz też od ręki w naszym sklepie.</p></div>
+  <div class="duo">
+   <div class="box">
+    <h3>Skarpety i getry na zamówienie klubu</h3>
+    <p>Łączymy wygodę na boisku z wyglądem, po którym od razu widać, czyja to drużyna. Każdy projekt dopasowujemy do klubu, więc każda para jest jedyna w swoim rodzaju.</p>
+    <ul>
+     <li><b>Jakość materiałów</b><span>Stawiamy na materiały, które wytrzymają sezon i są wygodne w grze.</span></li>
+     <li><b>Pełna personalizacja</b><span>Kolory, herb, logo i napisy dopasowane do klubu.</span></li>
+     <li><b>Sprawna realizacja</b><span>Działamy szybko, żeby drużyna jak najszybciej zagrała w nowych skarpetach.</span></li>
+    </ul>
+    <a class="btn dark" href="#kontakt">Zapytaj o wycenę</a>
+   </div>
+   <div class="box shop">
+    <h3>Sklep GoalSox</h3>
+    <p>Gotowe skarpety z haftem, bez minimalnej ilości. Dobre na prezent dla kibica albo zawodnika.</p>
+    <div class="price"><b>45,00 zł</b><span>Skarpety z haftem piłka + piwo = serce</span></div>
+    <p>Zamówienie i płatność przez platformę 1koszyk.</p>
+    <a class="btn" href="https://goalsox.1ct.eu/" target="_blank" rel="noopener">Przejdź do sklepu</a>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section class="sec grey" id="faq">
+ <div class="wrap">
+  <div class="head"><h2>Najczęstsze pytania</h2></div>
+  <div class="faq">
+   <details open><summary>Jak zamówić skarpety lub getry z własnym logo?</summary><p>Zadzwoń, napisz albo wypełnij formularz poniżej. Podaj, czego potrzebujesz i ile par, i dołącz herb klubu. Przygotujemy dla Ciebie wizualizację.</p></details>
+   <details><summary>Jakie jest minimalne zamówienie?</summary><p>Minimalne zamówienie to 20 par z jednego rozmiaru.</p></details>
+   <details><summary>Jaki jest czas realizacji zamówienia?</summary><p>Standardowo od 14 do 21 dni roboczych od zatwierdzenia projektu, ale często zdarza się, że jest to zdecydowanie szybciej.</p></details>
+  </div>
+ </div>
+</section>
+
+<section class="sec" id="kontakt">
+ <div class="wrap">
+  <div class="head"><h2>Wyślij herb, przygotujemy projekt</h2><p>Odpowiadamy w godzinach pracy. Herb możesz dołączyć jako plik.</p></div>
+  <div class="kontakt">
+   <form id="form" novalidate>
+    <label>Imię<input name="imie" autocomplete="name" required></label>
+    <label>Telefon<input name="tel" type="tel" autocomplete="tel" required></label>
+    <label>E-mail<input name="email" type="email" autocomplete="email" required></label>
+    <label>Liczba par<input name="pary" type="number" min="20" inputmode="numeric" placeholder="np. 40"></label>
+    <label class="full">Wiadomość<textarea name="wiad" placeholder="Skarpety czy getry, barwy klubu, rozmiary"></textarea></label>
+    <label class="full">Herb klubu (plik)<input name="herb" type="file" accept="image/*,.pdf"></label>
+    <button class="btn" type="submit">Wyślij zapytanie</button>
+    <p class="form-note" id="fnote">To podgląd strony, formularz niczego jeszcze nie wysyła.</p>
+   </form>
+   <div class="dane">
+    <h3>Kontakt</h3>
+    <a class="big" href="tel:+48732494192">732 494 192</a>
+    <a class="big mail" href="mailto:karol.dudzik@goalsox.pl">karol.dudzik@goalsox.pl</a>
+    <dl><dt>Pon - pt</dt><dd>8:00 - 16:00</dd><dt>Sobota</dt><dd>10:00 - 14:00</dd></dl>
+    <p class="person">Zamówienia prowadzi Karol Dudzik.</p>
+   </div>
+  </div>
+ </div>
+</section>
+</main>
+
+<footer>
+ <div class="wrap">
+  <div class="f-grid">
+   <div><img src="img/logo-biale.webp" width="484" height="88" alt="GoalSox" loading="lazy"><p>Skarpety i getry piłkarskie z herbem klubu.</p></div>
+   <div><h4>Strona</h4><ul><li><a href="#realizacje">Realizacje</a></li><li><a href="#zamowienie">Jak zamówić</a></li><li><a href="#faq">Pytania</a></li><li><a href="https://goalsox.1ct.eu/" target="_blank" rel="noopener">Sklep</a></li></ul></div>
+   <div><h4>Kontakt</h4><ul><li><a href="tel:+48732494192">732 494 192</a></li><li><a href="mailto:karol.dudzik@goalsox.pl">karol.dudzik@goalsox.pl</a></li><li>Pon - pt 8-16, sob 10-14</li></ul></div>
+  </div>
+  <div class="f-bot"><span>&copy; <span id="rok">2026</span> GoalSox</span>
+   <a class="wylinka-badge" href="https://wylinka.pl/?utm_source=goalsox.pl&amp;utm_medium=stopka&amp;utm_campaign=wykonanie" rel="noopener" title="Strona wykonana przez Wylinka"><svg viewBox="0 0 64 64" aria-hidden="true" focusable="false" fill="currentColor"><path d="M9.8 22.8l-1.2-7.9 2.2-3.7 15.5 4.6-.5 1.5-7.2 5.5 4.7 15.6 5-15.6 7 0 4.1 12.7-4.2-.9-2.6 1.8-.8-2.2-5.3 15.6-4.3 0 .4 .2-2.1 2.8-1.3-1.1 1.1-1.4-3.1 .2-.1-1.7 2.2-.1-5.7-16.5-4.8 .6-.8 3.1 0 .5-.3 .5 .8 2.2-1.6 .5-.4-1.3-.8 1.6-1.5-.8 .8-1.6-1.4 .6-.6-1.6 2.3-.8 .2-.4 1.3-4.8 5.9-.8-2.4-6.9zM15.2 13.7l-.1-.4-.4 .8-.1 .8 .1 1 .1 .4 .3 .7 .3-.9 .1-.7 0-.8z"/><path class="wy-pod" d="M37.1 49.8l-4.5-13.3 2.6-1.8 4.2 .9 .9 2.8 3-9.7 0-.5 .1-.8 3.2-8.4 .5-1 .6-1 .9-1.1 1.3-1 1.1-.7 1.4-.5 1.4-.3 .7 0 .9 0 1.2 .3 1.4 .6 .8 .5 .7 .7 .6 .7 .5 .9 .3 .9 .1 .9 0 .8-.2 .9-.5 .9-.5 .6-.7 .5-.7 .3-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.6-.1-.6-.3-.7-.4-.5-.4-.4-.5-.3-.6-.3-.7 0-.7 .1-.6 .1-.5 .4-.5 .5-.3 .5-.2 .7-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1-2.1-2.8 .4-.2z"/><path class="wy-old" d="M40.8 50l.4-.2-4.1 0-4.2-12.5 2.5-1.7 4.3 .9 .6 1.9 .6-1.6 0-.3 2.4-7.8 0-.5 .1-.8 3.2-8.4 .4-.8 .6-.9 .9-1.2 .9-.9 1.3-.8 1.4-.6 1.2-.3 1.4-.1 1.3 .1 .6 .2 .8 .3 1.1 .6 .9 .7 .7 .9 .5 .9 .3 .9 .1 1.1-.1 .9-.3 .9-.4 .7-.6 .7-.6 .4-.6 .2-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.5-.1-.6-.2-.6-.3-.5-.4-.5-.5-.3-.6-.3-.7-.1-.6 0-.6 .1-.6 .3-.6 .5-.3 .4-.2 .5-.1 .5-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1zM49.6 17.1l.6 1.7-1.5 1.9 .4 .4 1.8-2.1-.7-2.1zM48.1 28.3l.5 1.8-1.7 1.8 .4 .4 1.9-2-.6-2.2zM37.9 41.7l1.7-1.5-.4-.4-1.7 1.4zM42.6 38.7l-1.5 2.8 1.1 2-1.3 2.6 .5 .2 1.5-2.8-1.1-2 1.4-2.5z"/></svg><span>wykonanie: <b>Wylinka</b></span></a>
+  </div>
+ </div>
+</footer>
+
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Powiększone zdjęcie">
+ <img id="lbImg" alt="">
+ <p class="cap" id="lbCap"></p>
+ <button class="x" id="lbX" aria-label="Zamknij"><svg viewBox="0 0 20 20"><path d="M4 4l12 12M16 4L4 16"/></svg></button>
+ <button class="p" id="lbP" aria-label="Poprzednie"><svg viewBox="0 0 20 20"><path d="M17 10H4M9 4l-6 6 6 6"/></svg></button>
+ <button class="n" id="lbN" aria-label="Następne"><svg viewBox="0 0 20 20"><path d="M3 10h13M11 4l6 6-6 6"/></svg></button>
+</div>
+
+<script>
+(function(){
+var G=[["granat","Granat",1],["gks-belsk","GKS Belsk Duży",1],["amator-maszewo","Amator Maszewo",1],["lechia-strawczyn","Lechia Strawczyn",1],["tecza","Tęcza",1],["fuks-pultusk-herb","Fuks Pułtusk",1],["constract","Constract",1],["aks","AKS",1],["fuks-pultusk","Fuks Pułtusk - napis",1],["wymakracz","Wymakracz",0],["hubertus","Hubertus F.C.",0]];
+var t=document.getElementById('track'),h='';
+G.forEach(function(g,i){h+='<figure class="card"><button type="button" data-i="'+i+'" aria-label="Powiększ: '+g[1]+'"><img src="img/'+g[0]+'-'+(g[2]?'360':'640')+'.webp" '+(g[2]?'srcset="img/'+g[0]+'-360.webp 240w,img/'+g[0]+'-640.webp 420w" sizes="290px" ':'')+'width="240" height="360" alt="Skarpety piłkarskie z herbem: '+g[1]+'" loading="lazy" decoding="async"></button><figcaption>'+g[1]+'</figcaption></figure>'});
+t.innerHTML=h;
+function step(){var c=t.querySelector('.card');return c?c.offsetWidth+18:300}
+document.getElementById('gPrev').onclick=function(){t.scrollBy({left:-step(),behavior:'smooth'})};
+document.getElementById('gNext').onclick=function(){t.scrollBy({left:step(),behavior:'smooth'})};
+var down=false,sx=0,sl=0,moved=0;
+t.addEventListener('pointerdown',function(e){if(e.pointerType!=='mouse')return;down=true;moved=0;sx=e.clientX;sl=t.scrollLeft});
+window.addEventListener('pointermove',function(e){if(!down)return;var d=e.clientX-sx;if(Math.abs(d)>4){moved=1;t.classList.add('drag')}t.scrollLeft=sl-d});
+window.addEventListener('pointerup',function(){if(!down)return;down=false;if(t.classList.contains('drag')){var s=step(),x=Math.round(t.scrollLeft/s)*s;t.classList.remove('drag');t.scrollTo({left:x,behavior:'smooth'})}});
+var lb=document.getElementById('lb'),li=document.getElementById('lbImg'),lc=document.getElementById('lbCap'),cur=0,last=null;
+function show(i){cur=(i+G.length)%G.length;var g=G[cur];li.src='img/'+g[0]+'-'+(g[2]?'1100':'640')+'.webp';li.alt='Skarpety piłkarskie z herbem: '+g[1];lc.textContent=g[1]+'  ('+(cur+1)+'/'+G.length+')'}
+t.addEventListener('click',function(e){var b=e.target.closest('button');if(!b||moved)return;last=b;show(+b.dataset.i);lb.classList.add('on');document.body.style.overflow='hidden';document.getElementById('lbX').focus()});
+function close(){lb.classList.remove('on');document.body.style.overflow='';if(last)last.focus()}
+document.getElementById('lbX').onclick=close;
+document.getElementById('lbP').onclick=function(){show(cur-1)};
+document.getElementById('lbN').onclick=function(){show(cur+1)};
+lb.addEventListener('click',function(e){if(e.target===lb)close()});
+document.addEventListener('keydown',function(e){if(!lb.classList.contains('on'))return;if(e.key==='Escape')close();if(e.key==='ArrowLeft')show(cur-1);if(e.key==='ArrowRight')show(cur+1)});
+var tx=0;lb.addEventListener('touchstart',function(e){tx=e.touches[0].clientX},{passive:true});
+lb.addEventListener('touchend',function(e){var d=e.changedTouches[0].clientX-tx;if(Math.abs(d)>50)show(cur+(d<0?1:-1))});
+var top=document.getElementById('top'),bur=document.getElementById('burger');
+function sc(){top.classList.toggle('solid',scrollY>40)}sc();addEventListener('scroll',sc,{passive:true});
+bur.onclick=function(){var o=top.classList.toggle('menu-open');bur.setAttribute('aria-expanded',o)};
+document.querySelectorAll('.nav a').forEach(function(a){a.addEventListener('click',function(){top.classList.remove('menu-open');bur.setAttribute('aria-expanded','false')})});
+document.getElementById('form').addEventListener('submit',function(e){e.preventDefault();document.getElementById('fnote').textContent='Dziękujemy. W docelowej stronie zapytanie trafi na adres karol.dudzik@goalsox.pl.'});
+document.getElementById('rok').textContent=new Date().getFullYear();
+})();
+</script>
+</body>
+</html>
